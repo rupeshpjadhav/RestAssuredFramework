@@ -3,9 +3,13 @@
   <groupId>PetStoreAutomation</groupId>
   <artifactId>PetStoreAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-    
-  <build>
+	<properties>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
+
+	<build>
     <pluginManagement>
     
   		<plugins>
